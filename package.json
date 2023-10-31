@@ -1,6 +1,6 @@
 {
   "name": "calculator-mrwilbroad",
-  "type": "module",
+  "type": "commonjs",
   "version": "1.0.0",
   "description": "calculator",
   "main": "./lib/cjs/index.js",
@@ -21,10 +21,9 @@
     "addition",
     "division"
   ],
-
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrwilbroad/math-pgk.git"
+    "url": "git+https://github.com/mrwilbroad/math-pgk.git"
   },
   "author": "mrwilbroad",
   "license": "MIT"

@@ -1,0 +1,31 @@
+{
+  "name": "calculator-mrwilbroad",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "calculator",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepublishOnly": "npm run tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "calculator",
+    "mrwilbroad",
+    "addition",
+    "division"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrwilbroad/math-pgk.git"
+  },
+  "author": "mrwilbroad",
+  "license": "MIT"
+}
